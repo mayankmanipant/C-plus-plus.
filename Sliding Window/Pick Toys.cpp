@@ -20,7 +20,7 @@ int main(){
     while(j<n){
         mp[toys[j]]++;
 
-        if(mp.size()==2){
+        if(mp.size()<=2){
             ans=max(ans,j-i+1);
         }
         if(mp.size()>2){
